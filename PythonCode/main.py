@@ -28,4 +28,5 @@ while answer.lower() == 'да':
         answer = 'да'
     elif answer == 'нет':
         print(f'Магический шар: {name}, возвращайся если возникнут вопросы!')
+        input()
         break
